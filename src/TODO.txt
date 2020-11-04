@@ -1,0 +1,32 @@
+
+[ ] add actions to bots (walk, talk, plant bomb, defuse bomb, rescue hostages, escape (if VIP))
+[ ] add VIP bot when in assassin missions
+[ ] add hostages when in hostage/rescue
+[ ] add bomb and defuse-kit when in bomb/defuse
+[ ] check if objective completed (VIP escaped or got killed, hostages rescued or killed, bomb exploded or defused)
+[ ] correct weapons' precision and damage
+
+[x] player FOV
+[x] mouse over stuff
+[x] radar
+[x] kevlar + helmet (shoots only take half of health)
+[x] team selection menu
+[x] get items on map (weapons, defuse kit, bomb, hostage?)
+[x] add property to items (ammo, health, time, etc, depending on type)
+[x] map restart (players with same weapons and ammo, but full health and new positions, all items as currently)
+[x] check timeout
+[x] check if all members of one team died (other team wins, duh)
+[x] add points to a killer
+[x] add messages (from bots and on-screen alerts)
+
+[ ] use a config file for screen setup and stuff
+[ ] rename maps to original names (and use original tile names)
+[ ] make a map selection menu, showing map descriptions (mapfile.txt)
+
+
+
+[ ] particles? smoke grenade, etc..
+
+[ ] sound?
+
+[ ] multiplayer? yeah, right..

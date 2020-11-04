@@ -1,0 +1,32 @@
+#
+# MED project file
+#
+project=cs2d demo
+workDir=
+incDir=
+createTags=1
+Compile= Compile	 	 	 	 	 	 	 	 	 0	 15	 0	 1	 1	 0	 	 1	 	 -1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 	 0
+Make= Make	 	 	 	 	 	 	 	 	 0	 15	 0	 1	 1	 0	 	 1	 	 -1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 	 0
+Debug= Debug	 	 	 	 	 	 	 	 	 0	 15	 0	 1	 1	 0	 	 1	 	 -1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 	 0
+Execute= Execute	 	 	 	 	 	 	 	 	 0	 15	 0	 1	 1	 0	 	 1	 	 -1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 	 0
+Usercmd1= Usercmd1	 	 	 	 	 	 	 	 	 0	 15	 0	 1	 1	 0	 	 1	 	 -1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 	 0
+Usercmd2= Usercmd2	 	 	 	 	 	 	 	 	 0	 15	 0	 1	 1	 0	 	 1	 	 -1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 	 0
+Usercmd3= Usercmd3	 	 	 	 	 	 	 	 	 0	 15	 0	 1	 1	 0	 	 1	 	 -1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 	 0
+Usercmd4= Usercmd4	 	 	 	 	 	 	 	 	 0	 15	 0	 1	 1	 0	 	 1	 	 -1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 	 0
+Usercmd5= Usercmd5	 	 	 	 	 	 	 	 	 0	 15	 0	 1	 1	 0	 	 1	 	 -1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 	 0
+Usercmd6= Usercmd6	 	 	 	 	 	 	 	 	 0	 15	 0	 1	 1	 0	 	 1	 	 -1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 	 0
+Usercmd7= Usercmd7	 	 	 	 	 	 	 	 	 0	 15	 0	 1	 1	 0	 	 1	 	 -1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 	 0
+Usercmd8= Usercmd8	 	 	 	 	 	 	 	 	 0	 15	 0	 1	 1	 0	 	 1	 	 -1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 	 0
+Usercmd9= Usercmd9	 	 	 	 	 	 	 	 	 0	 15	 0	 1	 1	 0	 	 1	 	 -1	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 0	 	 0
+fileGroup1=cs2dpart.bas	
+options1=0	0	0	1	1	1	0
+filter1=*.bas
+fileGroup2=inc	inc
+options2=0	0	0	1	0	1	0
+filter2=*.inc
+fileGroup2.1=inc	inc
+options2.1=0	0	0	1	1	1	0
+filter2.1=*.bi
+fileGroup3=doc	
+options3=0	0	0	1	0	1	0
+filter3=*.txt

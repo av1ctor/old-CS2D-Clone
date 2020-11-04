@@ -1,0 +1,24 @@
+Counter-Strike 2D server info request 
+Do you want to write your own client to request Counter-Strike 2D server informations?
+I'll tell you what you have to do:
+1. You can load a list off all servers on the U.S.G.N. from here: http://www.cs2d.com/usgn/games/Counter-Strike%202D.txt
+2. If you have an IP you have to use the UDP protocol to request informations:
+
+Send this to the server:
+250 (Byte)
+0 (Byte)
+
+3. Now you have to wait until the server replies:
+
+The server will reply this:
+250 (Byte) 
+1 (Byte)
+Server Name (Line)
+Password (Byte, 1 - password / 0 - no password)
+Map (Line)
+Players (Byte)
+Max Players (Byte)
+Fog of War (Byte, 1 fog of war / 0 - no fog of war)
+War Mode (Byte, 1 war mode / 0 - no war mode) 
+
+That's all. 

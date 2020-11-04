@@ -1,0 +1,47 @@
+1 - USP
+2 - Glock
+3 - Deagle
+4 - P228
+5 - Elite
+6 - Fiveseven
+
+10 - M3
+11 - XM1014
+
+20 - MP5
+21 - TMP
+22 - P90
+23 - MAC10
+24 - UMP45
+
+30 - AK-47
+31 - SG552
+32 - M4A1
+33 - Aug
+34 - Scout
+35 - AWP
+36 - G3SG1
+37 - SG550
+
+40 - M249
+
+45 - Laser
+46 - Flamethrower
+
+
+(50 - Knife)
+51 - HE
+52 - Flash
+53 - Smoke
+54 - Flare
+(55 - Bomb)
+56 - Defuse Kit
+(57 - Kevlar)
+(58 - Kevlar + Helm)
+(59 - Nightvision)
+
+(61 - Prim. Ammo)
+(62 - Sec. Ammo)
+
+(100 - Planted Bomb) 
+

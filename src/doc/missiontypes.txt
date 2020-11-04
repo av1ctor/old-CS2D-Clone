@@ -1,0 +1,28 @@
+* AS (Assassination)  
+ 
+Terrorists: Try to kill the VIP
+Counter-Terrorists: Protect the VIP
+VIP (Counter-Terrorist): Reach the Escape Point  
+
+
+* CS (Hostage Rescue)  
+ 
+Terrorists: Protect the Hostages
+Counter-Terrorists: Rescue the Hostages  
+
+
+* DE (Bomb/Defuse) 
+ 
+Terrorists: Plant the Bomb
+Counter-Terrorists: Protect the Bombspot(s) / defuse the Bomb 
+
+--------------------------------
+
+Custom Mission Types  
+
+* DM (Deathmatch) 
+Each Team has to kill the other Team 
+
+
+* FY (Fun Map)
+Fun Map 

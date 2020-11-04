@@ -1,0 +1,128 @@
+--------------------------------------------------------------------------------
+cs2d map file, hax0red by v1ctor (man, what f*cked format):
+
+            signature               string+CRLF
+            unknown0                byte[3*16+2] (0's)
+            unknown1                string+CRLF[10]
+            desc                    string+CRLF (as decimal: mapsize + 'x' sizeof_unkown2 + '$' + unknown_number + '%' + unknown_number)
+            tileset                 string+CRLF
+            tileinfs                byte  (less 1)
+            x_size_less1            dword
+            y_size_less1            dword
+            background              string+CRLF
+            scroll_x                dword
+            scroll_y                dword
+            color_r                 byte
+            color_g                 byte
+            color_b                 byte
+            signature2              string+CRLF
+
+            tile_inf                byte[tileinfs+1]
+
+            map                     byte[(x_size_less1+1)*(y_size_less1+1)] (in column order!)
+
+            entities                dword
+
+            (entities following, with 11 CRLF's each)
+
+            [entity header]
+            name                    string+CRLF
+            type                    byte
+            xpos                    dword
+            ypos                    dword
+                                    CRLF
+
+            [env_image entity body]
+            x offset                dword
+            file name               string+CRLF
+            y offset                dword
+                                    CRLF
+            unused                  dword+CRLF[8]
+
+
+            [env_sprite entity body]
+            x size                  dword
+            file name               string+CRLF
+            y size                  dword
+            alpha                   string+CRLF     (0.0= invisible, 1.0= visible)
+            x offset                dword
+            mode                    string+CRLF     (1=normal, 2=alphamap, 4=masked, ...)
+            y offset                dword
+            rot speed               string+CRLF     (0=none, >0 clockwise, <0 ccw)
+            rotation angle          dword
+                                    CRLF
+            r                       dword
+                                    CRLF
+            g                       dword
+                                    CRLF
+            b                       dword
+                                    CRLF
+            FX                      dword
+                                    CRLF
+            blend mode              dword
+                                    CRLF
+
+            [info_t entity body]
+            start angle             dword
+                                    CRLF
+            unused                  dword+CRLF[9]
+
+            [info_ct entity body]
+            start angle             dword
+                                    CRLF
+            unused                  dword+CRLF[9]
+
+            [info_vip entity body]
+            start angle             dword
+                                    CRLF
+            unused                  dword+CRLF[9]
+
+            [info_hostage entity body]
+            start angle             dword
+                                    CRLF
+            look             	    dword		(0 to num of hostage sprites-1)
+                                    CRLF
+            unused                  dword+CRLF[8]
+
+            [info_rescuepoint entity body]		(the 8 blocks around this block are considered too)
+            unused                  dword+CRLF[10]
+
+            [info_bombspot entity body]			(the 24 blocks around this block are considered too)
+            explosion range	    dword
+            			    CRLF
+            unused                  dword+CRLF[9]
+
+            [info_escapepoint entity body]
+            unused                  dword+CRLF[10]
+
+            [env_item entity body]
+            id 			    dword
+            			    CRLF
+            unused                  dword+CRLF[9]
+
+
+--------------------------------------------------------------------------------
+cs2d tile inf file (not used):
+            signature               string+CRLF
+            tile type               string+CRLF[until EOF]
+
+
+--------------------------------------------------------------------------------
+cs2d way point file:
+
+
+            waypoints               dword                       (must allocate much more than that!)
+            waypointTB              WAYPOINT[waypoints]         (not in order?)
+            connections             dword
+            connectionTB            CONNECTION[connections]
+
+WAYPOINT    struct
+            id/number               dword
+            pos x                   dword
+            pos y                   dword
+WAYPOINT    ends
+
+CONNECTION  struct
+            start waypoint          dword
+            end waypoint            dword
+CONNECTION  ends

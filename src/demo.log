@@ -1,0 +1,92 @@
+Microsoft (R) Visual Basic (TM) for MS-DOS (R)
+Compiler - Professional Edition Version 1.00
+Copyright (C) 1982-1992 Microsoft Corporation. All rights reserved.
+ 041D   01F8    	mouseInit env.video, env.mouse
+                        ^ Variable required
+
+41983 Bytes Available
+11369 Bytes Free
+
+    0 Warning Error(s)
+    1 Severe  Error(s)
+Microsoft (R) Visual Basic (TM) for MS-DOS (R)
+Compiler - Professional Edition Version 1.00
+Copyright (C) 1982-1992 Microsoft Corporation. All rights reserved.
+
+41971 Bytes Available
+29755 Bytes Free
+
+    0 Warning Error(s)
+    0 Severe  Error(s)
+Microsoft (R) Visual Basic (TM) for MS-DOS (R)
+Compiler - Professional Edition Version 1.00
+Copyright (C) 1982-1992 Microsoft Corporation. All rights reserved.
+
+41971 Bytes Available
+12540 Bytes Free
+
+    0 Warning Error(s)
+    0 Severe  Error(s)
+Microsoft (R) Visual Basic (TM) for MS-DOS (R)
+Compiler - Professional Edition Version 1.00
+Copyright (C) 1982-1992 Microsoft Corporation. All rights reserved.
+
+41971 Bytes Available
+12653 Bytes Free
+
+    0 Warning Error(s)
+    0 Severe  Error(s)
+Microsoft (R) Visual Basic (TM) for MS-DOS (R)
+Compiler - Professional Edition Version 1.00
+Copyright (C) 1982-1992 Microsoft Corporation. All rights reserved.
+
+41971 Bytes Available
+28864 Bytes Free
+
+    0 Warning Error(s)
+    0 Severe  Error(s)
+Microsoft (R) Visual Basic (TM) for MS-DOS (R)
+Compiler - Professional Edition Version 1.00
+Copyright (C) 1982-1992 Microsoft Corporation. All rights reserved.
+
+41971 Bytes Available
+28691 Bytes Free
+
+    0 Warning Error(s)
+    0 Severe  Error(s)
+Microsoft (R) Visual Basic (TM) for MS-DOS (R)
+Compiler - Professional Edition Version 1.00
+Copyright (C) 1982-1992 Microsoft Corporation. All rights reserved.
+
+41971 Bytes Available
+28933 Bytes Free
+
+    0 Warning Error(s)
+    0 Severe  Error(s)
+Microsoft (R) Visual Basic (TM) for MS-DOS (R)
+Compiler - Professional Edition Version 1.00
+Copyright (C) 1982-1992 Microsoft Corporation. All rights reserved.
+
+41971 Bytes Available
+11035 Bytes Free
+
+    0 Warning Error(s)
+    0 Severe  Error(s)
+Microsoft (R) Visual Basic (TM) for MS-DOS (R)
+Compiler - Professional Edition Version 1.00
+Copyright (C) 1982-1992 Microsoft Corporation. All rights reserved.
+
+41977 Bytes Available
+12275 Bytes Free
+
+    0 Warning Error(s)
+    0 Severe  Error(s)
+
+Microsoft (R) Segmented Executable Linker  Version 5.31.009 Jul 13 1992
+Copyright (C) Microsoft Corp 1984-1992.  All rights reserved.
+
+Object Modules [.obj]: /seg:800 /ex /e  demo.obj cs2dmain.obj cs2dload.obj cs2dents.obj cs2dplay.obj cs2dbots.obj cs2dwepn.obj cs2ddraw.obj cs2dhud.obj 
+Run File [demo.exe]:  demo.exe 
+List File [nul.map]:  
+Libraries [.lib]:  c:\program\vbdos\lib\vbdcl10e+lib\uglv.lib 
+LINK : fatal error L1093: demo.obj : object file not found
